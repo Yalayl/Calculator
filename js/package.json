@@ -7,12 +7,16 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "tape tests/*.test.js | tap-spec",
+    "test:jest": "jest",
+    "test:tape": "tape tests/*.test.js | tap-spec",
     "format": "standard --fix"
   },
   "devDependencies": {
     "standard": "^17.0.0",
     "tape": "^5.5.3",
     "tap-spec": "^5.0.0"
+  },
+  "dependencies": {
+    "jest": "^29.3.1"
   }
 }
