@@ -2,7 +2,7 @@ const test = require("tape");
 const Calculator = require("../calculator");
 const Authorizer = require("../authorizer");
 
-test("should throw when not authorized", (t) => {
+test.skip("should throw when not authorized", (t) => {
   // TODO: write a test that fails due to the bug in
   //Given
   const numerator = 12;
